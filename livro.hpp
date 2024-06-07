@@ -7,7 +7,7 @@ class livro{
     livro();
     ~livro();
 
-    void minhaFuncao();
+    void VerificarNumeroExemplares(int exemplarN);
 
     protected:
         

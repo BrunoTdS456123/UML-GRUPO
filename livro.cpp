@@ -12,7 +12,7 @@ int exemplarN ;
 livro::livro(){};
 livro::~livro(){};
 
-void livro::VerificarNumeroExemplares() {
+void livro::VerificarNumeroExemplares(int exemplarN) {
     if(exemplarN==0){
         situacao= 0; //  livro nao pode ser emprestado
         return situacao;
