@@ -8,11 +8,14 @@ public:
     User();
     ~User();
 
-    void setNome(string _nome);
-    void setID(string _ID);
-
+    void setNome();
+    void setID();
+    void setEmail();
+    void cadastrar();
 private:
+    int isAdm;
     string id;
     string nome;
-
+    string email;
+    string senha;
 };
