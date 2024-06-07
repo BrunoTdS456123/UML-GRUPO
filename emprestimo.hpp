@@ -7,7 +7,8 @@ class emprestimo{
     emprestimo();
     ~emprestimo();
 
-    void SetLocacao(std::string );
+    void SetLocacao(std::string dataLoc_);
+    void SetDevolucao(std::string dataDev_);
 
     protected:
         

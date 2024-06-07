@@ -9,12 +9,9 @@ std::string dataDev ;
 emprestimo::emprestimo(){};
 emprestimo::~emprestimo(){};
 
-void emprestimo::VerificarNumeroExemplares(int exemplarN) {
-    if(exemplarN==0){
-        situacao= 0; //  livro nao pode ser emprestado
-        return situacao;
-    }else{
-        situacao= 1; // livro pode ser emprestado
-        return situacao;
-    }
+void emprestimo::SetLocacao(std::string dataLoc_) {
+   dataLoc = dataLoc_ ;
+}
+void emprestimo::SetDevolucao(std::string dataDev_) {
+   dataDev = dataDev_ ;
 }
