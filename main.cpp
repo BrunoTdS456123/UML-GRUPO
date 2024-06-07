@@ -6,6 +6,6 @@ using namespace std;
 
 int main(){
     User onielson;
-
+    onielson.cadastrar();
     return 0;
 }

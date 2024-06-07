@@ -1,23 +1,15 @@
-
 #include "livro.hpp"
 #include <iostream>
+#include <string>
 
-std::string titulo ;
-std::string autor ; 
-std::string editora ; 
-int id ;
-std::string dataLaunch ;
-int exemplarN ; 
+Livro::Livro(){};
 
-livro::livro(){};
-livro::~livro(){};
+Livro::~Livro(){};
 
-void livro::VerificarNumeroExemplares(int exemplarN) {
+void Livro::VerificarNumeroExemplares(int exemplarN) {
     if(exemplarN==0){
         situacao= 0; //  livro nao pode ser emprestado
-        return situacao;
     }else{
         situacao= 1; // livro pode ser emprestado
-        return situacao;
     }
 }

@@ -1,16 +1,21 @@
+#include <iostream>
+#include <string>
 
-#ifndef livro
-#define livro
+using namespace std;
 
-class livro{
+class Livro{
     public:
-    livro();
-    ~livro();
+    Livro();
+    ~Livro();
 
     void VerificarNumeroExemplares(int exemplarN);
 
-    protected:
-        
-}
-
-#endif
+    private:
+        string titulo ;
+        string autor ; 
+        string editora ; 
+        int id ;
+        string dataLaunch ;
+        int exemplarN ; 
+        int situacao;
+};
