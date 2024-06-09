@@ -1,17 +1,16 @@
-
-#include "emprestimo.hpp"
 #include <iostream>
+#include <string>
+#include "emprestimo.hpp"
 
-std::string dataLoc ;
-std::string dataDev ; 
+using namespace std;
 
 
-emprestimo::emprestimo(){};
-emprestimo::~emprestimo(){};
+Emprestimo::Emprestimo(){};
+Emprestimo::~Emprestimo(){};
 
-void emprestimo::SetLocacao(std::string dataLoc_) {
-   dataLoc = dataLoc_ ;
+void Emprestimo::SetLocacao(std::string dataLoc_) {
+   data_loc = dataLoc_ ;
 }
-void emprestimo::SetDevolucao(std::string dataDev_) {
-   dataDev = dataDev_ ;
+void Emprestimo::SetDevolucao(string data_dev_) {
+   data_dev = data_dev_ ;
 }

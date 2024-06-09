@@ -1,17 +1,18 @@
+#include <iostream>
+#include <string>
 
-#ifndef emprestimo
-#define emprestimo
+using namespace std;
 
-class emprestimo{
+class Emprestimo{
     public:
-    emprestimo();
-    ~emprestimo();
+    Emprestimo();
+    ~Emprestimo();
 
-    void SetLocacao(std::string dataLoc_);
-    void SetDevolucao(std::string dataDev_);
+    void SetLocacao(string dataLoc_);
+    void SetDevolucao(string dataDev_);
 
-    protected:
+    private:
+        string data_loc;
+        string data_dev; 
         
-}
-
-#endif
+};

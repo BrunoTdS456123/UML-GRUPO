@@ -11,11 +11,11 @@ class Livro{
     void VerificarNumeroExemplares(int exemplarN);
 
     private:
-        string titulo ;
-        string autor ; 
-        string editora ; 
-        int id ;
-        string dataLaunch ;
-        int exemplarN ; 
+        string titulo;
+        string autor; 
+        string editora; 
+        int id;
+        string dataLaunch;
+        int exemplar_n; 
         int situacao;
 };

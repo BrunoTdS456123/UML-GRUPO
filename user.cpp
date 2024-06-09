@@ -12,16 +12,13 @@ void User::setID(){
     std::cin>>senha;
 }   
 
-void setEmail(){
+void User::setEmail(){
     std::cout<<"Digite seu email:";
     std::cin>>email;
 }
 
-void cadastrar(){
+void User::cadastrar(){
     setNome();
     setID();
     setEmail();
-}
-void excluirCadastro(){
-    nome=nullptr
 }
