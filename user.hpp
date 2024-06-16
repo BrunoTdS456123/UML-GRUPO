@@ -12,8 +12,11 @@ public:
     void setID();
     void setEmail();
     void cadastrar();
+    int isAdm();
+
 private:
-    int isAdm;
+    int is_adm;
+    int adm_pass = 123;
     string id;
     string nome;
     string email;

@@ -22,3 +22,18 @@ void User::cadastrar(){
     setID();
     setEmail();
 }
+
+int User::isAdm(){
+    int pass;
+    cout << "Você é um administrador?" << std::endl;
+    cin >> pass;
+
+    if (pass == adm_pass){
+        is_adm = 1;
+        return is_adm;
+    }
+    else {
+        is_adm = 0;
+        return is_adm;
+    }
+}
