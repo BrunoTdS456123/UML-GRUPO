@@ -11,10 +11,11 @@ class Emprestimo{
     void SetLocacao(string dataLoc_);
     void SetDevolucao(string dataDev_);
     float Registro();
-    void DATAdev(data_loc);
+    void DATAdev();
 
     private:
         string data_loc;
         string data_dev; 
+        string id_livro;
         
 };
