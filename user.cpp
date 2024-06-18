@@ -1,6 +1,8 @@
 #include "user.hpp"
 #include <iostream>
 #include <string>
+#include <vector>
+
 
 void User::setNome(){
     std::cout<<"Digite seu nome:";

@@ -2,6 +2,8 @@
 #include <string>
 #include "user.hpp"
 #include "emprestimo.hpp"
+#include <vector>
+
 
 using namespace std;
 
