@@ -13,10 +13,13 @@ public:
     void setEmail();
     void cadastrar();
     int isAdm();
-
+    void modificarStatusUsuario();
+    void pagamentoMulta();
 private:
     int is_adm;
     int adm_pass = 123;
+    int multa = 0;
+    int verifyMulta= NULL;
     string id;
     string nome;
     string email;

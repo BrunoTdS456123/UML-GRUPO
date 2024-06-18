@@ -37,3 +37,20 @@ int User::isAdm(){
         return is_adm;
     }
 }
+  void User::modificarStatusUsuario(){
+    if(multa=0){
+        cout<<"Status da multa do Usuario:Pago";
+    }
+    else if (multa>0)
+    {
+        cout<<"Status da multa do Usuario:A pagar"<<multa;
+        std::cout<<"Digite 1 para pagar a multa ou 0 para sair da operaçao:";
+        std::cin>>verifyMulta;
+        if(verifyMulta=1){
+            void pagamentoMulta();{
+                
+            }
+        }
+    }
+    
+}
