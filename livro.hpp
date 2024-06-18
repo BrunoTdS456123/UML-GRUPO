@@ -7,6 +7,7 @@ class Livro{
     public:
     Livro();
     ~Livro();
+    std::vector<Livro> livros;
 
     void VerificarNumeroExemplares(int exemplarN);
 
